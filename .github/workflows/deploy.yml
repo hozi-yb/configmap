@@ -14,7 +14,7 @@ on:
 env:
   NAME: kosa
   USERNAME: kosa
-  USER_PASSWORD: ${{ USER_PASSWORD }}
+  USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
 
 
 # 하나의 Workflow는 1개 이상의 Job으로 구성된다. 
